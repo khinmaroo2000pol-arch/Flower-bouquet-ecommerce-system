@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.navbar-brand{
+     font-family: "IM Fell Great Primer SC", serif;
+}
+/* nav section end  */
+
+/* slider section start   */
+.div1{
+    margin: 0px 0px;
+    padding: 8rem 0rem 0rem 15px;
+    color: #87494A;
+}
+.div1 button{
+    width: 7rem;
+    border-radius: 5px;
+    background-color: #87494A;
+    border: none; 
+}
+.div1::before{
+    content: "";
+    background: linear-gradient(to top right, #FFDCDC,#f9caca,#f45053);
+    position: absolute;
+    width: 100rem;
+    height: 90vh;
+    z-index: -1;
+    left: -270px;
+    top: 0px;
+}
+
+
+
+
+.div1, .div2, .div3 {
+    position: relative;
+    margin: 0; /* remove the 80px gap */
+    padding-top: 8rem; 
+}
+
+.slider1{
+    margin: 0px 13rem;
+    position: relative;
+    top: -70px; 
+}
+.slider1 img{
+    width: 450px;
+    margin: 90px 0px 0px 0px;
+    rotate: -25deg;
+}
+
+/* christmas slider start  */
+.div3::before{
+        content: "";
+        background: linear-gradient(to bottom right,#033a11,#0a5e1f,#59d87b);
+        position: absolute;
+        width: 100rem;
+        height: 90vh;
+        z-index: -10;
+        left: -270px;
+        top: 0px;
+    }
+    .div3{
+        margin: 0px 0px;
+        padding: 8rem 0rem 0rem 15px;
+        color: #E8ECD7;
+    }
+    .div3 button{
+        width: 7rem;
+        border-radius: 5px;
+        background-color: #E8ECD7;
+        border: none; 
+    }
+    .div3 button a{
+        color: #1F4529;
+        font-weight: bold;
+    }
+/* new year slider start */
+
+.div2::before{
+        content: "";
+        background: linear-gradient(to bottom right,#FFEEA9,#FFEEA9,#BA8E23);
+        position: absolute;
+        width: 100rem;
+        height: 90vh;
+        z-index: -1;
+        left: -270px;
+        top: 0px;
+    }
+    .div2{
+        margin: 80px 0px;
+        padding: 8rem 0rem 0rem 15px;
+        color: #8B650A;
+    }
+    .div2 button{
+        width: 7rem;
+        border-radius: 5px;
+        background-color: #8B650A;
+        border: none; 
+    }
+    
+/* slider ssection end  */
+/* best seller section start  */
+.best h3{
+    background-color: #FFF0F5;
+    width: 20rem;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 30px 0px 30px;
+}
+.best button{
+    width: 6rem;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #87494A;
+    border: none;   
+}
+.best a{
+    color: white;
+}
+
+
+
+.bestlily{
+    margin-top: 20px;
+}
+/* best seller section end */
+
+/* special offer section start */
+.special{
+    text-align: center;
+    background-color: #FFF0F5;
+    width: 18rem;
+    padding: 20px;
+    margin: auto;
+    border-radius: 30px 0px 30px 0px;
+}
+.offer1::before{
+    content: "";
+    background-color: #FFF0F5;
+    width: 35rem;
+    height: 17rem;
+    position: absolute;
+    z-index: -1;
+    left: 13rem;
+    border-radius: 30px;
+}
+.offer2::before{
+    content: "";
+    background-color: #FFF0F5;
+    width: 35rem;
+    height: 17rem;
+    position: absolute;
+    z-index: -1;
+    left: 50rem;
+    border-radius: 30px;
+}
+.off1{
+    margin: 50px 170px;
+}
+.off2{
+    margin: 50px 90px;
+}
+.off2 button{
+    width: 6rem;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #87494A;
+    border: none;   
+
+}
+.off2 a{
+    color: white;
+    
+}
+

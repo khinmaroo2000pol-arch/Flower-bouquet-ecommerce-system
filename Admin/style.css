@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Menu button */
+#menu-btn {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* SideNav */
+.sidenav {
+  position: fixed;
+  top: 0;
+  left: 0; 
+  width: 250px;
+  height: 100vh;
+
+  padding: 30px 15px; 
+  transition: all 0.3s ease;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+/* SideNav Links */
+
+.sidenav a:hover {
+  background-color: #ffcccc;
+}
+
+/* Main Content */
+.main {
+  margin-left: 250px;
+  margin-top: 50px;
+  padding-left: 20px;
+  transition: all 0.3s ease;
+}
+
+.topnavbar h2{
+     font-family: "IM Fell Great Primer SC", serif;
+}
+
+.topnavbar{
+    
+    position: sticky;
+    top: 0;
+    margin: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+
+
